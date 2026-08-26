@@ -7,5 +7,6 @@
 - `MD1-Desktop-macOS-arm64-Full-v0.1.3.zip`
 - `MD1-Desktop-macOS-Resource-Update-v0.1.3.zip`
 - `MD1-Desktop-Windows-x64-Portable-Full-v0.1.3.zip`
+- `MD1-Phone-Update-v0.1.36-paypal-save-diagnostics-20260826.zip`
 
 手机端更新包不是普通 APK 安装包，需要通过电脑端执行签名校验、组件安装和版本回读。
