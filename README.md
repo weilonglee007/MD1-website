@@ -1,12 +1,14 @@
-# MD1 GitHub Pages 官网
+# MD1 官网
 
-这是可单独部署的静态官网。当前仓库直接作为 GitHub Pages 源，不需要单独服务器或额外绑定域名。
+这是 MD1 的静态产品介绍页，面向需要使用 MD1 环境管理器的客户。
 
-页面下载按钮直接指向 `weilonglee007/MD1-PRO` 的 GitHub Release 资产：
+页面介绍软件功能、支持平台、使用流程和下载方式。
+
+页面下载入口指向 `weilonglee007/MD1-PRO` 的版本发布页和下载文件：
 
 - `MD1-Desktop-macOS-arm64-Full-v0.1.3.zip`
 - `MD1-Desktop-macOS-Resource-Update-v0.1.3.zip`
 - `MD1-Desktop-Windows-x64-Portable-Full-v0.1.3.zip`
-- `MD1-Phone-Update-v0.1.36-paypal-save-diagnostics-20260826.zip`
+- 手机端更新文件
 
-手机端更新包不是普通 APK 安装包，需要通过电脑端执行签名校验、组件安装和版本回读。
+手机端更新由电脑端管理器完成，客户按对应版本说明操作即可。
