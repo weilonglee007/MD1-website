@@ -526,6 +526,10 @@ code {
   font-size: 11px;
 }
 
+.release-guide-link {
+  margin-top: 0;
+}
+
 .platform-table {
   border-top: 2px solid var(--ink);
 }
