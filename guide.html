@@ -40,9 +40,9 @@
 
     <section class="guide-toolbar">
       <div class="shell guide-toolbar-inner">
-        <span class="guide-toolbar-label">客户使用版 · 更新日期：2026 年 8 月 27 日</span>
+        <span class="guide-toolbar-label">客户使用版 · 更新日期：2026 年 8 月 31 日</span>
         <div class="guide-toolbar-actions">
-          <a class="button button-dark" href="guides/MD1系统使用指南-图文版-2026-08-27.docx" download>下载 Word 图文版 <span aria-hidden="true">↓</span></a>
+          <a class="button button-dark" href="guides/MD1系统使用指南-图文版-2026-08-31.docx" download>下载 Word 图文版 <span aria-hidden="true">↓</span></a>
           <a class="button button-quiet" href="index.html">返回官网 <span aria-hidden="true">↗</span></a>
         </div>
       </div>
@@ -61,7 +61,7 @@
         <a href="#sync">8. 保存、同步和启动</a>
         <a href="#screenmirror">9. 投屏和 2FA</a>
         <a href="#switch">10. 切换环境</a>
-        <a href="#phone-status">11. 手机状态和更新</a>
+        <a href="#phone-status">11. 手机状态、更新和环境备份</a>
         <a href="#cleanup">12. 删除和清理</a>
         <a href="#faq-guide">13. 常见问题</a>
         <a href="#finish">14. 完成检查</a>
@@ -296,7 +296,7 @@
         </section>
 
         <section class="guide-section" id="phone-status">
-          <h2>11. 手机端状态和组件更新</h2>
+          <h2>11. 手机端状态、组件更新和环境备份</h2>
           <p>手机授权、租赁状态和手机端组件都从当前选中的设备读取。</p>
           <h3>手机状态刷新</h3>
           <ul>
@@ -312,9 +312,18 @@
             <li>确认手机保持解锁、数据线稳定连接，再开始更新；更新过程中不要退出电脑端或重复点击。</li>
             <li>更新完成后点击“刷新手机运行环境”，确认状态正常，再继续同步环境。</li>
           </ol>
+          <h3>环境备份与还原</h3>
+          <p>电脑端可以把已经同步好的手机环境打包成 ZIP，保存在电脑上；需要恢复时，再把 ZIP 还原回手机。备份会保留环境参数、硬件参数和浏览器指纹参数，浏览器环境还会带上对应的站点数据。</p>
+          <ol>
+            <li>先选中正确手机和要备份的环境，点击“备份手机环境”。</li>
+            <li>选择保存位置，等待进度条完成；备份结束后会生成一个 ZIP 文件。</li>
+            <li>还原时点击“还原备份到手机”，选择对应 ZIP，再确认目标手机。</li>
+            <li>还原完成后点击“刷新手机运行环境”，再启动环境检查数据是否完整。</li>
+            <li>Windows 和 macOS 都直接使用文件选择器，不需要手动改路径；如果备份失败，可以把错误信息复制给支持人员。</li>
+          </ol>
           <div class="guide-callout warning">
             <strong>不需要重复更新</strong>
-            <p>如果手机端程序区域显示“已配置”或当前版本正常，请直接使用。无法确认版本或更新失败时，保留提示信息并联系 MD1 支持人员。</p>
+            <p>如果手机端程序区域显示“已配置”或当前版本正常，请直接使用。无法确认版本、更新失败或备份失败时，保留提示信息并联系 MD1 支持人员。</p>
           </div>
         </section>
 
@@ -355,6 +364,7 @@
                 <tr><td>租赁状态没有更新</td><td>是否重新读取手机状态</td><td>重连手机、点击“重新检测手机”或重启 MD1</td></tr>
                 <tr><td>2FA 验证码不通过</td><td>电脑时间、密钥格式和时间窗口</td><td>同步系统时间，确认密钥后生成新码</td></tr>
                 <tr><td>手机更新按钮无法使用</td><td>是否选择正确更新文件</td><td>只在收到更新包时选择 MD1-PHONE-UPDATE.json</td></tr>
+                <tr><td>备份或还原失败</td><td>ZIP 文件是否完整、目标手机是否正确、是否使用文件选择器</td><td>重新生成备份并重新选择 ZIP；Windows 和 macOS 都直接选文件，不要手动改路径</td></tr>
               </tbody>
             </table>
           </div>
@@ -370,13 +380,15 @@
           <div class="guide-checklist">
             <p>电脑端可以启动，顶部工具栏和当前版本说明可见。</p>
             <p>目标手机已授权，左侧设备信息与实际手机一致。</p>
-            <p>手机端程序状态正常；如刚完成更新，已经刷新手机运行环境。</p>
+            <p>手机端程序状态正常；如刚完成更新或还原，已经刷新手机运行环境。</p>
             <p>新建环境可以保存到电脑，并能成功同步到手机。</p>
             <p>批量模板导入成功，失败行已单独处理。</p>
             <p>代理模板已保存并完成检测（适用时）。</p>
             <p>MD1 浏览器一键随机正常，高级设置可以展开。</p>
             <p>目标 App 可以启动，环境切换后没有账号、代理或站点数据混用。</p>
             <p>2FA 助手可以生成当前验证码，使用完成后已关闭窗口。</p>
+            <p>备份手机环境已经生成 ZIP，并能成功还原到手机。</p>
+            <p>浏览器环境的备份和还原已经测试通过，恢复后可以继续读取站点数据。</p>
             <p>删除或清理操作范围已确认。</p>
             <p>密码、Cookie、2FA 密钥和代理密码没有写入环境名称、备注、截图或共享文档。</p>
           </div>
