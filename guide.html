@@ -40,7 +40,7 @@
 
     <section class="guide-toolbar">
       <div class="shell guide-toolbar-inner">
-        <span class="guide-toolbar-label">客户使用版 · 更新日期：2026 年 8 月 31 日</span>
+        <span class="guide-toolbar-label">客户使用版 · 更新日期：2026 年 9 月 3 日</span>
         <div class="guide-toolbar-actions">
           <a class="button button-dark" href="guides/MD1系统使用指南-图文版-2026-08-31.docx" download>下载 Word 图文版 <span aria-hidden="true">↓</span></a>
           <a class="button button-quiet" href="index.html">返回官网 <span aria-hidden="true">↗</span></a>
@@ -298,6 +298,23 @@
         <section class="guide-section" id="phone-status">
           <h2>11. 手机端状态和组件更新</h2>
           <p>手机授权、租赁状态和手机端组件都从当前选中的设备读取。</p>
+          <h3>电脑端在线更新</h3>
+          <ol>
+            <li>电脑端默认使用“正式通道”，点击顶部“检查更新”读取当前通道的更新清单。</li>
+            <li>内部测试手机才选择“测试通道”；客户不要自行切换到测试通道，除非收到 MD1 支持人员的明确通知。</li>
+            <li>发现电脑端更新时，点击“在线更新电脑端”，确认后程序会下载并校验更新文件，完成后自动重启。</li>
+            <li>在线更新需要网络连接；如果网络受限或在线更新失败，仍可从 GitHub Releases 下载完整包或桌面更新包，按原来的手动方式更新。</li>
+          </ol>
+          <h3>手机端在线更新</h3>
+          <ol>
+            <li>连接并选中要更新的手机，确认设备信息与实际手机一致。</li>
+            <li>点击“在线更新手机组件”，管理器会根据所选通道下载对应手机包，并在安装前校验签名、文件大小和 SHA-256。</li>
+            <li>在线更新完成后点击“刷新手机运行环境”，确认 MD1 Runtime 和 MD1 browsers 版本正常。</li>
+          </ol>
+          <div class="guide-callout">
+            <strong>测试通道和正式通道</strong>
+            <p>测试通道只给指定的内部测试手机使用，用于先验证 PayPal、MD1 浏览器、投屏和手机组件更新；测试通过后才会发布到正式通道。正式通道适合客户日常使用。</p>
+          </div>
           <h3>手机状态刷新</h3>
           <ul>
             <li>打开电脑端、重新选择手机或点击“重新检测手机”时，软件会重新读取手机端状态。</li>
@@ -306,7 +323,7 @@
           </ul>
           <h3>手机端组件更新</h3>
           <ol>
-            <li>只有在收到明确的更新通知和手机端更新包时，才执行更新。</li>
+            <li>在线更新和手动更新都可以使用；只有在收到明确的更新通知，或管理器提示有新版本时，才执行更新。</li>
             <li>连接并选中正确手机，确认左侧设备信息无误。</li>
             <li>点击“选择手机更新包”，选择已完整解压目录中的“MD1-PHONE-UPDATE.json”。不要直接选择 ZIP 压缩包。</li>
             <li>确认手机保持解锁、数据线稳定连接，再开始更新；更新过程中不要退出电脑端或重复点击。</li>
@@ -323,7 +340,7 @@
           </ol>
           <div class="guide-callout warning">
             <strong>不需要重复更新</strong>
-            <p>如果手机端程序区域显示“已配置”或当前版本正常，请直接使用。无法确认版本、更新失败或备份失败时，保留提示信息并联系 MD1 支持人员。</p>
+            <p>如果手机端程序区域显示“已配置”或当前版本正常，请直接使用。无法确认版本、在线更新失败或手动更新失败时，保留提示信息并联系 MD1 支持人员。</p>
           </div>
         </section>
 
