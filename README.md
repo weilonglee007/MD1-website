@@ -11,11 +11,13 @@
 
 指南内容覆盖手机连接、环境创建、批量导入、模板和代理、MD1 浏览器、同步启动、投屏、2FA、手机状态刷新、组件更新、清理和常见问题。
 
-页面下载入口指向 `weilonglee007/MD1-PRO` 的版本发布页和下载文件：
+页面下载入口指向 `weilonglee007/MD1-PRO` 的最新版本发布页，官网地址为：
 
-- `MD1-Desktop-macOS-arm64-Full-v0.1.3.zip`
-- `MD1-Desktop-macOS-Resource-Update-v0.1.3.zip`
-- `MD1-Desktop-Windows-x64-Portable-Full-v0.1.3.zip`
+- <https://weilonglee007.github.io/MD1-website/>
+
+- macOS Apple Silicon 完整包
+- macOS 资源更新包
+- Windows x64 完整包
 - 手机端更新文件
 
 手机端更新由电脑端管理器完成，客户按对应版本说明操作即可。
