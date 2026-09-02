@@ -14,7 +14,7 @@
 
 页面下载入口指向 `weilonglee007/MD1-PRO` 的最新版本发布页，官网地址为：
 
-- <https://weilonglee007.github.io/MD1-website/>
+- <https://md1.online/>
 
 - macOS Apple Silicon 完整包
 - macOS 资源更新包
