@@ -16,13 +16,15 @@
 
 - <https://md1.online/>
 
-Windows 和 macOS 当前正式版本：`v0.1.10`
+Windows 当前正式版本：`v0.1.11`；手机端兼容更新：`v0.1.39`；macOS 保持 `v0.1.10`。
 
 - [macOS Apple Silicon 完整包 v0.1.10](https://github.com/weilonglee007/MD1-website/releases/download/v0.1.10/MD1-Desktop-Mac-arm64-Full-v0.1.10.zip)
-- [Windows x64 完整包 v0.1.10](https://github.com/weilonglee007/MD1-website/releases/download/v0.1.10/MD1-Desktop-Windows-x64-Full-v0.1.10.zip)
+- [Windows x64 完整包 v0.1.11](https://github.com/weilonglee007/MD1-website/releases/download/v0.1.11/MD1-Desktop-Windows-x64-Full-v0.1.11.zip)
 - [Windows 资源更新包 v0.1.8（旧版）](https://github.com/weilonglee007/MD1-website/releases/download/v0.1.8/MD1-Desktop-Windows-x64-Update-v0.1.8.app.asar)
 
-当前 `v0.1.10` 提供 Windows 和 macOS Apple Silicon 完整包；请不要把旧版资源更新包用于 v0.1.10。
+本次 `v0.1.11` 发布 Windows x64 完整包和手机端 v0.1.39 密封兼容更新包。macOS 本次没有重新构建或验证，继续使用已有 v0.1.10。不要混用旧版资源更新包。
+
+手机包先用 v0.1.11 Windows 管理器手动导入；仅适用于发布说明标明的历史签名。遇到签名不符，不要卸载或清除环境数据。GitHub 发布不代表服务器在线自动更新通道已同步。
 
 - macOS Apple Silicon 完整包
 - Windows x64 完整包
