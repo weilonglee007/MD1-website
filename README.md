@@ -22,7 +22,7 @@ Windows 当前正式版本：`v0.1.12`；手机端组件版本：`v0.1.46`；mac
 - [Windows x64 完整包 v0.1.12](https://github.com/weilonglee007/MD1-website/releases/download/v0.1.12/MD1-Desktop-Windows-x64-Full-v0.1.12.zip)
 - [Windows 资源更新包 v0.1.8（旧版）](https://github.com/weilonglee007/MD1-website/releases/download/v0.1.8/MD1-Desktop-Windows-x64-Update-v0.1.8.app.asar)
 
-Windows x64 完整包为 `v0.1.12`；[手机端 v0.1.46 密封组件更新包](https://github.com/weilonglee007/MD1-website/releases/tag/phone-v0.1.46) 单独发布，包含 Runtime v0.1.46/code47 和 MD1 browsers 152.0.7932.0。macOS 本次没有重新构建或验证，继续使用已有 v0.1.10。不要混用旧版资源更新包。
+Windows x64 完整包为 `v0.1.12`；[手机端 v0.1.46 密封组件更新包](https://github.com/weilonglee007/MD1-website/releases/tag/phone-v0.1.46) 单独发布，包含 Runtime v0.1.46/code48 和 MD1 browsers 152.0.7932.0。macOS 本次没有重新构建或验证，继续使用已有 v0.1.10。不要混用旧版资源更新包。
 
 手机包先用 v0.1.12 Windows 管理器手动导入；仅适用于发布说明标明的历史签名。遇到签名不符，不要卸载或清除环境数据。GitHub 发布不代表服务器在线自动更新通道已同步。
 
